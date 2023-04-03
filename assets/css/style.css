@@ -86,7 +86,10 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    /*moved margin-bottom and color here instead of having three extra sections*/
+}
+
+/* grouped three benefit into one group */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -109,7 +112,7 @@ p {
 */
 
 /*grouped three sections of h3 into one*/
-.benefits h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -132,7 +135,7 @@ p {
 */
 
 /*grouped three sections of imgs into one*/
-.benefits img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
